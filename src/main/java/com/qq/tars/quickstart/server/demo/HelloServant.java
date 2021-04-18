@@ -12,5 +12,5 @@ import com.qq.tars.common.support.Holder;
 @Servant
 public interface HelloServant {
 
-	public String ping();
+	public String ping(String req);
 }
